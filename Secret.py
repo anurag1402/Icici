@@ -153,7 +153,7 @@ st.markdown("""
 # Header
 st.markdown("""
     <div class="header">
-        <div class="logo">🏦 iBank</div>
+        <div class="logo">🏦 ICICI Bank</div>
     </div>
 """, unsafe_allow_html=True)
 
@@ -168,7 +168,7 @@ with col2:
 current_time = datetime.datetime.now().strftime("%b %d, %Y %H:%M IST")
 st.markdown(f"""
     <div class="portfolio-card">
-        <div class="portfolio-title">Portfolio Value</div>
+        <div class="portfolio-title">Pe</div>
         <div class="portfolio-amount">₹5,07,619.18</div>
         <div class="portfolio-date">(As of {current_time})</div>
     </div>
@@ -183,7 +183,7 @@ st.markdown("""
                     💰
                 </div>
                 <div style="margin-top: 10px; font-weight: 600; font-size: 12px;">ACCOUNTS</div>
-                <div style="font-weight: bold; color: #333; margin-top: 5px;">₹23,619.18</div>
+                <div style="font-weight: bold; color: #333; margin-top: 5px;"></div>
             </div>
             <div>
                 <div class="action-icon" style="margin: 0 auto; background: #e0e0e0; color: #999;">
@@ -205,7 +205,7 @@ st.markdown("""
 st.markdown("""
     <div class="account-card">
         <div class="account-name">ANURA..-9277</div>
-        <div class="account-amount">₹23,619.18</div>
+        <div class="account-amount">👁️</div>
     </div>
 """, unsafe_allow_html=True)
 
