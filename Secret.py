@@ -3,7 +3,7 @@ import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="iBank Dashboard",
+    page_title="ICICI BANK",
     page_icon="🏦",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -169,7 +169,7 @@ current_time = datetime.datetime.now().strftime("%b %d, %Y %H:%M IST")
 st.markdown(f"""
     <div class="portfolio-card">
         <div class="portfolio-title">Portfolio Value</div>
-        <div class="portfolio-amount">₹23,619.18</div>
+        <div class="portfolio-amount">₹5,07,619.18</div>
         <div class="portfolio-date">(As of {current_time})</div>
     </div>
 """, unsafe_allow_html=True)
