@@ -335,40 +335,11 @@ balance = 542355.67
 st.markdown(f"""
     <div class="portfolio-card">
         <div class="portfolio-title">Portfolio Value</div>
-        <div class="portfolio-amount">₹5,42,355.67</div>
-        <div class="portfolio-change">↑ ₹12,450.30 (2.35%) today</div>
-        <div class="portfolio-date">As of {current_time}</div>
+        <div class="portfolio-amount">₹4,82,459.67</div>
     </div>
 """, unsafe_allow_html=True)
 
-# Quick Actions
-st.markdown("""
-    <div class="action-grid">
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-            <div class="action-item">
-                <div class="action-icon" style="background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);">
-                    💰
-                </div>
-                <div class="action-label">ACCOUNTS</div>
-                <div class="action-value">1</div>
-            </div>
-            <div class="action-item">
-                <div class="action-icon" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
-                    💳
-                </div>
-                <div class="action-label">CARDS</div>
-                <div class="action-value">2</div>
-            </div>
-            <div class="action-item">
-                <div class="action-icon" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
-                    📈
-                </div>
-                <div class="action-label">INVESTMENTS</div>
-                <div class="action-value">₹1.2L</div>
-            </div>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
+
 
 # Account Details
 balance_display = f"₹{balance:,.2f}" if st.session_state.balance_visible else "••••••"
@@ -420,37 +391,16 @@ transactions = [
         "bg_color": "#fee2e2"
     },
     {
-        "name": "Salary Credited",
-        "date": "May 01, 2026",
-        "amount": 85000.00,
-        "icon": "💰",
-        "bg_color": "#d1fae5"
-    },
-    {
-        "name": "Netflix Subscription",
-        "date": "Apr 30, 2026",
-        "amount": -649.00,
+        "name": "Amazon Subscription",
+        "date": "Apr 17, 2026",
+        "amount": -449.00,
         "icon": "📺",
         "bg_color": "#fee2e2"
     },
     {
-        "name": "UPI from Rajesh K",
-        "date": "Apr 29, 2026",
-        "amount": 5000.00,
-        "icon": "📱",
-        "bg_color": "#d1fae5"
-    },
-    {
-        "name": "Electricity Bill",
-        "date": "Apr 28, 2026",
-        "amount": -1850.00,
-        "icon": "⚡",
-        "bg_color": "#fee2e2"
-    },
-    {
-        "name": "Swiggy Order",
+        "name": "Gilani Kamil",
         "date": "Apr 27, 2026",
-        "amount": -425.00,
+        "amount": -500000.00,
         "icon": "🍔",
         "bg_color": "#fee2e2"
     }
